@@ -1,0 +1,46 @@
+.workexperience-section {
+  margin-top: 70px;
+}
+
+.timeline-section {
+  margin-top: 20px;
+}
+
+.section-title h5 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.tech-skills p {
+  background-color: black;
+  border-radius: 90px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.experience-points {
+  padding-left: 18px;
+  margin-top: 12px;
+}
+
+.experience-points li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.tech-skills p:hover {
+  background-color: gold;
+  cursor: pointer;
+  color: black;
+}
+.date-class {
+  color: black;
+}
+
+#dark .date-class {
+  color: white;
+}
+

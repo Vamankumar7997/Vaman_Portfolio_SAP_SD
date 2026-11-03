@@ -1,0 +1,116 @@
+.about-section {
+  box-shadow: 0 10px 30px  rgba(0,0,0,0.08);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  margin-top: 50px;
+  min-height: 500px;
+  padding: 50px 30px;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+#dark .about-section {
+  background-color: #38004c;
+  box-shadow: 0 10px 30px  rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.about-image img {
+  
+  height: 290px;
+  width: 290px;
+  border-radius: 170px;
+  margin-top: 0px;
+  border: 5px solid rgb(197, 197, 135);
+  object-fit: cover;
+}
+
+
+
+.about-details {
+  padding-left: 20px;
+}
+
+.about-title h5 {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.line {
+  display: block;
+  width: 70px;
+  height: 4px;
+  margin: 4px auto 18px auto;
+  background-color: yellowgreen;
+}
+
+.about-title .line {
+  margin: 4px 0 18px 0;
+}
+
+.about-details p {
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: justify;
+
+}
+
+/* ---------- Stat cards ---------- */
+.about-stats {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.stat-card {
+  flex: 1 1 130px;
+  text-align: center;
+  padding: 14px 10px;
+  border-radius: 12px;
+  background: #f6f8fb;
+  border-bottom: 4px solid yellowgreen;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff1042;
+}
+
+.stat-card span {
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+
+#dark .stat-card {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#dark .stat-card h3 {
+  color: #ffee00;
+}
+
+
+@media (max-width: 991px) {
+  .about-details {
+    padding-left: 0;
+    margin-top: 35px;
+  }
+  .about-title h5 {
+    text-align: center;
+  }
+  .about-title .line {
+    margin: 4px auto 18px auto;
+  }
+}
