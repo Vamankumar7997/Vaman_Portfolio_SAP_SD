@@ -24,18 +24,7 @@ const Education = () => {
       year: "2016-2020",
       des: "Graduated with 8.26 CGPA.",
     },
-    // {
-    //   name: "Sri Chaitanya Junior College",
-    //   degree: "Intermediate Education",
-    //   year: "2014-2016",
-    //   des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-    //  },
-    //  {
-    //   name: "Bhashyam Public School",
-    //   degree: "Secondary Education",
-    //   year: "2013-2014",
-    //   des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-    //  },
+    
   ];
 
 

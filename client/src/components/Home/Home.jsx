@@ -53,7 +53,7 @@ const Home = ({ theme, changeTheme }) => {
             
             {/* FIX: Points directly to the file inside the public directory root */}
             <div className="get-resume-button">
-              <a href="/Vaman_SAP_SD_Resume.docx" download="Vaman_SAP_SD_Resume.docx" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <a href="/Vaman_SAP_SD_Resume.pdf" download="Vaman_SAP_SD_Resume.pdf" style={{ textDecoration: 'none', color: 'inherit' }}>
                 Get Resume
               </a>
             </div>
